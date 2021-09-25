@@ -1,1 +1,3 @@
+<iframe width="100%" height="476" frameborder="0"
+  src="https://observablehq.com/embed/@elisa-ro/life-expectancy-vs-gdp?cells=plot"></iframe>
 
