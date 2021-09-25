@@ -1,5 +1,6 @@
-<iframe width="100%" height="476" frameborder="0"
-  src="https://observablehq.com/embed/@elisa-ro/life-expectancy-vs-gdp?cells=plot"></iframe>
+Here is my Life Expectancy vs GDP per capita graph:
+
+Enjoy!
 
 <div id="observablehq-plot-b693ce4c"></div>
 <p>Credit: <a href="https://observablehq.com/@elisa-ro/life-expectancy-vs-gdp">Life Expectancy vs GDP by elisa-ro</a></p>
