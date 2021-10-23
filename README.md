@@ -52,7 +52,7 @@ new Runtime().module(define, name => {
 });
 </script>
 
-//But now let's see what the data is like per average month in a year:
+#But now let's see what the data is like per average month in a year:
 
 <a href="AirQualityMexicoCity">Air Quality in Mexico City</a>
   
