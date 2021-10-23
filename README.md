@@ -13,16 +13,16 @@ new Runtime().module(define, name => {
 });
 </script>
 
-A perhaps better way of visualising the dates and the over 20 stations that are measuring the air quality is to see which days in which stations go above the recommended limit by the WHO:
+A perhaps better way of visualising the dates and the over 20 stations that are measuring the air quality is to see which days in which stations go above the recommended limit by the WHO of 45 PPM daily:
 
-<div id="observablehq-overlimit-58fc5e72"></div>
+<div id="observablehq-overlimit-2f5853da"></div>
 <p>Credit: <a href="https://observablehq.com/@elisa-ro/air-quality-monitoring">Air Quality Monitoring by elisa-ro</a></p>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@elisa-ro/air-quality-monitoring@1003.js?v=3";
+import define from "https://api.observablehq.com/@elisa-ro/air-quality-monitoring.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "overlimit") return new Inspector(document.querySelector("#observablehq-overlimit-58fc5e72"));
+  if (name === "overlimit") return new Inspector(document.querySelector("#observablehq-overlimit-2f5853da"));
 });
 </script>
 
@@ -41,14 +41,14 @@ new Runtime().module(define, name => {
 
 The air quality center "TLA" seems to be the most consistent over the years, and it's also centrally located so there should be interesting trends to figure out. Over the years there seems to be downard trend:
 
-<div id="observablehq-TLAPlot-e2d377ba"></div>
+<div id="observablehq-TLAPlot-2f5853da"></div>
 <p>Credit: <a href="https://observablehq.com/@elisa-ro/air-quality-monitoring">Air Quality Monitoring by elisa-ro</a></p>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@elisa-ro/air-quality-monitoring@1004.js?v=3";
+import define from "https://api.observablehq.com/@elisa-ro/air-quality-monitoring.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "TLAPlot") return new Inspector(document.querySelector("#observablehq-TLAPlot-e2d377ba"));
+  if (name === "TLAPlot") return new Inspector(document.querySelector("#observablehq-TLAPlot-2f5853da"));
 });
 </script>
 
