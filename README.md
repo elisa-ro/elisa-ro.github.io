@@ -1,6 +1,6 @@
 
 
-<a href="AirQualityMexicoCity.html">Air Quality in Mexico City</a>
+<a href="AirQualityMexicoCity">Air Quality in Mexico City</a>
 
 I've lived in both Germany and the U.S. now - two countries which have quite strong economies. However, I've had much better healthcare experiences in Mexico and Italy, both of which aren't as strong economically. I wanted to understand and visualise if the strength of an economy (measured below in GDP per capita) had an impact on the health of an individual in that country (measured below in years of life expectancy).
 
