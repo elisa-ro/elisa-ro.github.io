@@ -29,15 +29,16 @@ new Runtime().module(define, name => {
 
 There seems to be many stations that have data that is not accounted for, so using the following facet visualisation we can get a better understanding of this: 
 
-<div id="observablehq-myplot-65810ff9"></div>
+<div id="observablehq-myplot-2f5853da"></div>
 <p>Credit: <a href="https://observablehq.com/@elisa-ro/air-quality-monitoring">Air Quality Monitoring by elisa-ro</a></p>
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@elisa-ro/air-quality-monitoring.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "myplot") return new Inspector(document.querySelector("#observablehq-myplot-65810ff9"));
+  if (name === "myplot") return new Inspector(document.querySelector("#observablehq-myplot-2f5853da"));
 });
+</script>
 
 The air quality center "TLA" seems to be the most consistent over the years, and it's also centrally located so there should be interesting trends to figure out. Over the years there seems to be downard trend:
 
@@ -52,7 +53,7 @@ new Runtime().module(define, name => {
 });
 </script>
 
-#But now let's see what the data is like per average month in a year:
+/*But now let's see what the data is like per average month in a year:
 
 <a href="AirQualityMexicoCity">Air Quality in Mexico City</a>
   
